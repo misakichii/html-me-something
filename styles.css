@@ -31,7 +31,7 @@ a:link {
 }
 
 a:visited {
-    color: darkgray;
+    color: midnightblue;
     background-color: transparent;
     text-decoration: none;
 }
@@ -42,6 +42,32 @@ a:hover {
     text-decoration: none;
 }
 
-.color {
+.text {
     color: darkblue;
+    text-decoration: none;
+    font-family: cursive;
 }
+
+.content {
+    max-width: 1100px;
+}
+
+.box {
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+}
+
+.text {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: right;
+    top:  85%; /* Adjust this value to move the positioned div up and down */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 50%;/* Set the width of the positioned div */
+}
+
+ 

@@ -1,27 +1,36 @@
-body {
+html {
+    margin: 0;
+    padding: 0;
     background-color: #566D7E;
+}
+
+body {
     font-family: Georgia, Times, 'Times New Roman', serif;
-    
-    margin-left: 10%;
-    margin-right: 10%;
-    }
+    margin: 0 auto;
+    width: 80%;
+}
+
+#line {
+    border-bottom: 10px solid black;
+}
 
 h1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-left: 25px
+    font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+    font-style: italic;
+    margin: 1em 0 .4em;
 }
 
 img {
-    border:1px solid #000000;
-    margin-left: 20px;
+    border: 2px solid black;
 }
 
 p {
-    text-indent: 2em;
+    width: 60%;
     padding-top: 10px;
-    margin-top: 0;
-    margin-bottom: 10px;
-    margin-right: 425px;
+    text-align: justify;
+    margin: 0;
+    margin-bottom: 1em;
 }
 
 a:link {
@@ -67,7 +76,12 @@ a:hover {
     text-align: right;
     top:  85%; /* Adjust this value to move the positioned div up and down */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
     width: 50%;/* Set the width of the positioned div */
 }
 
+h2 {
+    background: black;
+    color:#ddd;
+}
  
